@@ -1093,11 +1093,31 @@ figcaption{
     color: rgba(248, 245, 245, 0.99);
 }
 
-#bloc-8 .col-sm-4, a:hover{
+#bloc-8 .col-sm-4, a:hover, a:focus{
     color: #FFFFFF;
 
 }
 
 .site-navigation a{
     text-transform: uppercase;
+}
+
+*:focus{
+    border: #090064 dotted 2px;    
+}
+
+input:valid, textarea:valid{
+    border-color: rgb(77, 212, 77);
+}
+
+textarea:valid{
+    background-color: #E8F0FE ;
+}
+
+input:invalid, textarea:invalid{
+    border-color:rgb(228, 16, 16);
+}
+
+adress a{
+    color: black;
 }
